@@ -4,16 +4,16 @@ import org.seckill.entity.SuccessKilled;
 import org.seckill.enums.SeckillStatEnum;
 
 /**
- * ��װ��ɱִ�к���
+ * 封装秒杀执行后结果
  * Created by Administrator on 2017/3/6.
  */
 public class SeckillExecution {
     private long seckillId;
-    //��ɱִ�н��״̬
+    //秒杀执行结果状态
     private int state;
-    //״̬��ʾ
+    //状态表示
     private String staeInfo;
-    //��ɱ�ɹ�״̬
+    //秒杀成功状态
     private SuccessKilled successKilled;
 
     public SeckillExecution(long seckillId, SeckillStatEnum statEnum, SuccessKilled successKilled) {

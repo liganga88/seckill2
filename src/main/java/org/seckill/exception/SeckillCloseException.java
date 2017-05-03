@@ -1,7 +1,7 @@
 package org.seckill.exception;
 
 /**
- * ÃëÉ±¹Ø±ÕÒì³£
+ * ç§’æ€å…³é—­å¼‚å¸¸
  * Created by Administrator on 2017/3/6.
  */
 public class SeckillCloseException extends SeckillException {

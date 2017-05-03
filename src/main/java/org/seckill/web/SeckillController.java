@@ -23,7 +23,7 @@ import java.util.List;
  * Created by Administrator on 2017/3/31.
  */
 @Controller
-@RequestMapping("/seckill")     //url:Ä£¿é/×ÊÔ´/{id}/Ï¸·Ö
+@RequestMapping("/seckill")     //url:æ¨¡å—/èµ„æº/{id}/ç»†åˆ†
 public class SeckillController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -32,7 +32,7 @@ public class SeckillController {
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public String list(Model model){
-        //»ñÈ¡ÁĞ±í
+        //è·å–åˆ—è¡¨
         List<Seckill> seckillList = seckillService.getSeckillList();
         model.addAttribute("list", seckillList);
 
@@ -74,7 +74,7 @@ public class SeckillController {
                                                    @PathVariable("md5") String md5,
                                                    @CookieValue(value = "killPhone", required = false) Long phone){
         if(phone == null){
-            return new SeckillResult<SeckillExecution>(false, "Î´×¢²á");
+            return new SeckillResult<SeckillExecution>(false, "æœªæ³¨å†Œ");
         }
         SeckillResult<SeckillExecution> result;
         try {

@@ -8,7 +8,7 @@ import org.seckill.entity.SuccessKilled;
  */
 public interface SuccessKilledDao {
     /**
-     * 插入购买明细，可过滤重复
+     * 鎻掑叆璐拱鏄庣粏锛屽彲杩囨护閲嶅
      * @param seckillId
      * @param userPhone
      * @return
@@ -16,7 +16,7 @@ public interface SuccessKilledDao {
     int insertSuccessKilled(@Param("seckillId") long seckillId,@Param("userPhone") long userPhone);
 
     /**
-     * 根据ID查询SuccessKilled并携带秒杀产品对象实体
+     * 鏍规嵁ID鏌ヨSuccessKilled骞舵惡甯︾鏉�浜у搧瀵硅薄瀹炰綋
      * @param seckillId
      * @return
      */

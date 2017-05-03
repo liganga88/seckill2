@@ -12,7 +12,7 @@ import java.util.List;
 public interface SeckillDao {
 
     /**
-     * ¼õ¿â´æ
+     * å‡åº“å­˜
      * @param seckillId
      * @param killTime
      * @return
@@ -20,14 +20,14 @@ public interface SeckillDao {
     int reduceNumber(@Param("seckillId") long seckillId, @Param("killTime") Date killTime);
 
     /**
-     * ¸ù¾İID²éÑ¯ÃëÉ±¶ÔÏó
+     * æ ¹æ®IDæŸ¥è¯¢ç§’æ€å¯¹è±¡
      * @param seckillId
      * @return
      */
     Seckill queryById(long seckillId);
 
     /**
-     * ¸ù¾İÆ«ÒÆÁ¿²éÑ¯ÃëÉ±ÁĞ±í
+     * æ ¹æ®åç§»é‡æŸ¥è¯¢ç§’æ€åˆ—è¡¨
      * @param offet
      * @param limit
      * @return

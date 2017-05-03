@@ -1,7 +1,7 @@
 package org.seckill.exception;
 
 /**
- * 秒杀业务相关异常
+ * 绉掓潃涓氬姟鐩稿叧寮傚父
  * Created by Administrator on 2017/3/6.
  */
 public class SeckillException extends RuntimeException {

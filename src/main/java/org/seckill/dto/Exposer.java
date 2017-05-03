@@ -1,21 +1,21 @@
 package org.seckill.dto;
 
 /**
- * ±©Â¶ÃëÉ±µØÖ·DTO
+ * æš´éœ²ç§’æ€åœ°å€DTO
  * Created by Administrator on 2017/3/6.
  */
 public class Exposer {
-    //ÊÇ·ñ¿ªÆôÃëÉ±
+    //æ˜¯å¦å¼€å¯ç§’æ€
     private boolean exporsed;
-    //Ò»ÖÖ¼ÓÃÜ´ëÊ©
+    //ä¸€ç§åŠ å¯†æªæ–½
     private String md5;
     //id
     private long seckillId;
-    //ÏµÍ³µ±Ç°Ê±¼ä
+    //ç³»ç»Ÿå½“å‰æ—¶é—´
     private long now;
-    //¿ªÊ¼Ê±¼ä
+    //å¼€å§‹æ—¶é—´
     private long start;
-    //½áÊøÊ±¼ä
+    //ç»“æŸæ—¶é—´
     private long end;
 
     @Override
