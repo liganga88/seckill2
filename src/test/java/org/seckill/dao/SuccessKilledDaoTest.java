@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-//¸æËßjunit springÅäÖÃÎÄ¼ş
+//å‘Šè¯‰junit springé…ç½®æ–‡ä»¶
 @ContextConfiguration({"classpath:spring/spring-dao.xml"})
 public class SuccessKilledDaoTest {
 

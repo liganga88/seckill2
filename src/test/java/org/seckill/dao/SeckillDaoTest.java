@@ -15,14 +15,14 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 /**
- * ÅäÖÃspringºÍjunitÕûºÏ£¬junitÆô¶¯ÊÇ¼ÓÔØspringIOCÈİÆ÷
+ * é…ç½®springå’Œjunitæ•´åˆï¼Œjunitå¯åŠ¨æ˜¯åŠ è½½springIOCå®¹å™¨
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-//¸æËßjunit springÅäÖÃÎÄ¼ş
+//å‘Šè¯‰junit springé…ç½®æ–‡ä»¶
 @ContextConfiguration({"classpath:spring/spring-dao.xml"})
 public class SeckillDaoTest {
 
-    // ×¢ÈëDaoÊµÏÖÀàÒÀÀµ
+    // æ³¨å…¥Daoå®ç°ç±»ä¾èµ–
     @Resource
     private SeckillDao seckillDao;
     @Test
